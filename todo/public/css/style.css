@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+}
+
+.title
+{
+    font-size: 24px;
+    font-weight:bold;
+}
+
+
+body{
+    color: rgb(0, 0, 0);
+    background-color:rgb(45, 25, 124);
+    font-size: 1.6rem;
+}
+
+.mainhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+
+}
+
+.mainform {
+
+    margin: 2em 0;
+    
+    color: #000000;
+    background: #FFF;
+    border-radius: 10px;
+    width: 45vw;
+
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+input.textform1 {
+    outline: solid 1px rgb(195, 196, 201);
+    border: none;
+    border-radius: 5px;
+    width: 80%; 
+    height:35px;
+
+}
+
+input.textform2 {
+    outline: solid 1px rgb(195, 196, 201);
+    border: none;
+    border-radius: 5px;
+    width: 90%; 
+    height:24px;
+}
+
+
+.textbox{
+    display: flex;
+    justify-content: space-between; 
+ 
+}
+.textbox2{
+    display: flex;
+    justify-content: center; 
+ 
+}
+
+table {
+    text-align:center;
+    width: 100%
+    }
+
+tr {
+    height: 50px;
+    }
+
+
+
+/************追加ボタン*****************/
+.btn{
+    width:60px;
+    height:40px;
+    line-height:40px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #d38bf0;
+    color:#d38bf0;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn:hover{
+    background:#d38bf0;
+    color:#FFFC00;
+    
+    border:2px solid #d38bf0;
+    box-shadow:none;
+}
+
+/************更新ボタン*****************/
+.btn2{
+    width:60px;
+    height:40px;
+
+    text-align:center;
+
+    
+
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #fcb503;
+    color:#fcb503;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn2:hover{
+    background:#fcb503;
+    color:#FFFC00;
+   
+    border:2px solid #fcb503;
+    box-shadow:none;
+}
+
+
+/************削除ボタン*****************/
+
+.btn3{
+    width:60px;
+    height:40px;
+
+    text-align:center;
+
+    
+
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #14f3e4;
+    color:#14f3e4;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn3:hover{
+    background:#14f3e4;
+    color:#FFFC00;
+   
+    border:2px solid #14f3e4;
+    box-shadow:none;
+}
+
+/************ログアウト*****************/
+
+.btn4{
+    width:80px;
+    height:40px;
+
+    text-align:center;
+     text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #f31414;
+    color:#f31414;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn4:hover{
+    background:#f31414;
+    color:#FFFC00;
+   
+    border:2px solid #f31414;
+    box-shadow:none;
+}
+
+/************タスク検索*****************/
+
+.btn5{
+    width:80px;
+    height:40px;
+
+    text-align:center;
+     text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #9df57a;
+    color:#9df57a;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn5:hover{
+    background:#9df57a;
+    color:#FFFC00;
+   
+    border:2px solid #9df57a;
+    box-shadow:none;
+}
+
+/************戻る*****************/
+
+.btn6{
+    width:80px;
+    height:40px;
+
+    text-align:center;
+     text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:2px solid #aaaca9;
+    color:#aaaca9;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    transition: all 0.6s ease;
+}
+.btn6:hover{
+    background:#aaaca9;
+    color:#FFFC00;
+   
+    border:2px solid #aaaca9;
+    box-shadow:none;
+}
+
+.listbox{
+   
+    outline: solid 1px rgb(195, 196, 201);
+    border: none;
+    border-radius: 5px;
+    width: 8%; 
+    height:35px;
+
+ }
+
+ .listbox2{
+   
+    outline: solid 1px rgb(195, 196, 201);
+    border: none;
+    border-radius: 5px;
+    width: 80%; 
+    height:24px;
+
+ }
